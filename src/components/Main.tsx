@@ -14,7 +14,7 @@ import { FaMinus } from "react-icons/fa";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { FaAngleRight } from "react-icons/fa";
-import { FaAngleLeft } from "react-icons/fa";
+// import { FaAngleLeft } from "react-icons/fa";
 
 type Props = {
   addToCart: (i: number) => void
@@ -43,24 +43,13 @@ const Main: React.FC<Props> = ({ addToCart}) => {
       showArrows={true}
       showThumbs={false}
       showStatus={false}
-      showIndicators={false}
+      // showIndicators={false}
       dynamicHeight={true}
-      renderArrowPrev={(onClickHandler, hasPrev, label) =>
-        hasPrev && (
-          <button
-          className='flex justify-center items-center h-10 w-10 p-3 rounded-full relative top-52 left-3 text-black bg-white'
-            type="button"
-            onClick={onClickHandler}
-            title={label}
-          >
-            <FaAngleLeft color='black'/>
-          </button>
-        )
-      }
+    
       renderArrowNext={(onClickHandler, hasNext, label) =>
         hasNext && (
           <button
-            className='flex justify-center items-center h-10 w-10 p-3 rounded-full absolute top-52 right-3 text-black bg-white '
+            className='flex justify-center items-center h-10 w-10 p-3 rounded-full absolute top-48 right-3 text-black bg-white '
             type="button"
             onClick={onClickHandler}
             title={label}
