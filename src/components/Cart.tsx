@@ -8,7 +8,7 @@ type Props = {
 }
 const Cart: FC<Props> = ({ count, clearCart }) => {
   return (
-    <div className='w-[350px] bg-white py-3 shadow-2xl rounded-lg'>
+    <div className='md:w-[350px] w-full bg-white py-3 shadow-2xl rounded-lg'>
         <div className=''>
             <h1 className='text-black font-bold m-2'>Cart</h1>
             <div className='w-full h-[1px] block bg-lightGrayishBlue'></div>

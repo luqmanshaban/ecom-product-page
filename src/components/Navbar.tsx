@@ -14,7 +14,7 @@ const Navbar: React.FC<Props> = ({ count, toggleCart }) => {
 
     const toggleActive = () => setActive(!active)
   return (
-    <nav className='md:static z-10 fixed w-full bg-white flex justify-between items-center gap-x-10 md:py-10 py-5 px-5'>
+    <nav className='md:static z-20 fixed w-full bg-white flex justify-between items-center gap-x-10 md:py-10 py-5 px-5'>
         <div className='md:flex md:gap-x-10 md:items-baseline'>
             {active && <div className='md:hidden fixed top-20 bg-black bg-opacity-70  w-full h-full rounded-15' onClick={() => setActive(false)}></div>}
             <ul className='flex items-center gap-x-3'>

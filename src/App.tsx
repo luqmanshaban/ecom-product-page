@@ -16,10 +16,10 @@ const App = () => {
     <div className="font-sans md:px-64">
       <header>
         <Navbar count={count} toggleCart={toggleCart}/>
-        <div className="h-[1px] w-ful bg-grayishBlue  block"></div>
+        <div className="h-[1px] w-full bg-grayishBlue  block"></div>
       </header>
       <main>
-        {cart && <div className="fixed md:right-60 md:top-36 top-24 right-6 z-20">
+        {cart && <div className="fixed md:right-60 md:top-36 top-24 right-2 left-2 z-20">
           <Cart count={count} clearCart={clearCart}/>
         </div>}
         <Main addToCart={addToCart}/>

@@ -48,7 +48,7 @@ const Main: React.FC<Props> = ({ addToCart}) => {
       renderArrowPrev={(onClickHandler, hasPrev, label) =>
         hasPrev && (
           <button
-          className='flex justify-center items-center h-10 w-10 p-3 z-10 rounded-full relative top-[215px] text-black bg-white'
+          className='flex justify-center items-center h-10 w-10 p-3 rounded-full relative top-52 left-3 text-black bg-white'
             type="button"
             onClick={onClickHandler}
             title={label}
@@ -60,7 +60,7 @@ const Main: React.FC<Props> = ({ addToCart}) => {
       renderArrowNext={(onClickHandler, hasNext, label) =>
         hasNext && (
           <button
-            className='flex justify-center items-center h-10 w-10 p-3 rounded-full relative top-[-225px] right-[-350px] text-black bg-white '
+            className='flex justify-center items-center h-10 w-10 p-3 rounded-full absolute top-52 right-3 text-black bg-white '
             type="button"
             onClick={onClickHandler}
             title={label}
