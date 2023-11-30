@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Challenge](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub)
+- Live Site URL: [Live Demo](https://luqman-ecom-product-page.netlify.app)
 
 ## My process
 
