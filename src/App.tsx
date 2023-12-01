@@ -9,7 +9,7 @@ const App = () => {
 
   const toggleCart = () => setCart(!cart)
   const addToCart = (val: number) => {
-    setCount(val)
+    setCount(prev => prev + val)
   }
   const clearCart = () => setCount(0)
   return (
